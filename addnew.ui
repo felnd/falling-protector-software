@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddNew</class>
+ <widget class="QDialog" name="AddNew">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>782</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>流水号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>申请日期</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>申请单位名称</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>160</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>联系人</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>手机</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>设备名称</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>型号规格</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>制造单位名称</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="serial_number">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="company">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="contact">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="tel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>190</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="equip_name">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="wendu">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>270</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="shidu">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>310</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="correct">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>470</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>470</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="No">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>350</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出厂编号</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="make_day">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>390</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>400</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出厂日期</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ts">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="manufacturer">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>310</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="load">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>30</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>40</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>额定制动载荷</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="speed">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>70</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>80</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>额定动作速度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>120</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>标定动作速度</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="velocity">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>110</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>160</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>螺距</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="luoju">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>150</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>200</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>齿数</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="chishu">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>190</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>240</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>模数</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="moshu">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>230</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="dianya">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>350</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>280</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>温度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>320</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>湿度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>360</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>电压</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>280</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>℃</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>701</x>
+     <y>318</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>357</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>40</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>kN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>80</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>120</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>160</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="datechoose">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>76</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>日期选择</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

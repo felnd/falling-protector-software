@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setEnvironment</class>
+ <widget class="QWidget" name="setEnvironment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>904</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="IO_1">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>57</y>
+     <width>311</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="IO_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>311</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>转矩转速传感器端口</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>103</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>变频器通讯端口</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>转矩转速测量采样频率</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="sf">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="niuju">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>扭矩修正系数</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="zhuansu">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>转速修正系数</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="zero_niuju">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>扭矩零点</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="zero_sudu">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>转速零点</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>390</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>飞轮复位转速(r/m)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>210</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>压频比</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>330</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>防坠器目标动作转速(r/m)</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="rate_vf">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>230</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>270</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>电机运行方向</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="target_v">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>350</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>150</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>零点频率</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="zero_f">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>170</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="recover_v">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>410</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>系统参数设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>480</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>480</y>
+     <width>89</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="side">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>290</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recovery">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>480</y>
+     <width>121</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>恢复出厂设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>370</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>230</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>调速</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>300</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>自动测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>440</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>系统设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>160</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>数据管理</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>7</y>
+     <width>761</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>458</y>
+     <width>761</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>8</y>
+     <width>130</width>
+     <height>117</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>126</y>
+     <width>130</width>
+     <height>392</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+  </widget>
+  <zorder>frame_3</zorder>
+  <zorder>frame_4</zorder>
+  <zorder>frame_2</zorder>
+  <zorder>frame</zorder>
+  <zorder>IO_1</zorder>
+  <zorder>IO_2</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>sf</zorder>
+  <zorder>niuju</zorder>
+  <zorder>label_4</zorder>
+  <zorder>zhuansu</zorder>
+  <zorder>label_5</zorder>
+  <zorder>zero_niuju</zorder>
+  <zorder>label_6</zorder>
+  <zorder>zero_sudu</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>rate_vf</zorder>
+  <zorder>label_11</zorder>
+  <zorder>target_v</zorder>
+  <zorder>label_12</zorder>
+  <zorder>zero_f</zorder>
+  <zorder>recover_v</zorder>
+  <zorder>label_13</zorder>
+  <zorder>OK</zorder>
+  <zorder>cancel</zorder>
+  <zorder>side</zorder>
+  <zorder>recovery</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
